@@ -1,0 +1,21 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "scraping",
+  "main": "main.js",
+  "scripts": {
+    "olympia": "node src/olympia/main.js",
+    "tonlunetier": "node src/tonlunetier/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "true"
+  },
+  "author": "Me",
+  "license": "MIT",
+  "dependencies": {
+    "open": "^9.1.0",
+    "opn": "^6.0.0",
+    "puppeteer": "^20.5.0"
+  }
+}
